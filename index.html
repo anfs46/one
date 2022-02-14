@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex {
+            background-color: rgb(145, 142, 139);
+        }
+        .flex-item1 {
+            background-color: rgb(165, 134, 94);
+        }
+        .flex-item2 {
+            background-color: rgb(99, 34, 9);
+        }
+        .flex-item3 {
+            background-color: rgb(141, 140, 69);
+        }
+        .flex-item4 {
+            background-color: rgb(165, 134, 94);
+        }
+        .flex-item5 {
+            background-color: rgb(99, 34, 9);
+        }
+        .flex-item6 {
+            background-color: rgb(141, 140, 69);
+        }
+        .flex-item7 {
+            background-color: rgb(165, 134, 94);
+        }
+        .flex-item8 {
+            background-color: rgb(99, 34, 9);
+        }
+        .flex-item9 {
+            background-color: rgb(141, 140, 69);
+        }
+        .flex-item10 {
+            background-color: rgb(99, 34, 9);
+        }
+        .flex {
+            display: flex;
+            flex-wrap: wrap;
+            height: 100vh;
+            border: solid 5px blueviolet;
+            /* flex-direction: column; */
+            gap: 10px;
+            }
+        .ololol li:nth-child(2) {
+            font-size: 40px;
+        }
+        span,
+        /* div {
+            border: solid 10px cadetblue;
+            box-sizing: content-box; */
+        }
+        .inlBlock {
+            display: inline-block;
+        }
+        .squre {
+            width: 100px;
+            height: 100px;
+            background-color: burlywood;
+        }
+        .squre:hover {
+            /* outline: solid 10px coral; */
+            margin: 10px;
+        }
+        .bg {
+            width: 700px;
+            height: 500px;
+            border: solid 3px blueviolet;
+            background-image: url(/calc/picTest/4.jpg);
+            background-size: auto;
+            background-repeat: no-repeat;
+        }
+        .bg:hover{
+            filter: invert(100%);
+        }
+        .cards {
+            display: inline-block;
+            position: relative;
+            margin: 50px;
+            border-radius: 2px;
+        }
+        .card1 {
+            width: 20px;
+            height: 50px;
+            background-color: blueviolet;
+            border: solid 1px black;
+            border-radius: 3px;
+            position: absolute;
+            z-index: 4;
+            transition: all 1s 1s;
+        }
+        .card2 {
+            width: 20px;
+            height: 50px;
+            background-color: rgb(177, 226, 43);
+            border: solid 1px black;
+            border-radius: 3px;
+            position: absolute;
+            left: 5px;
+            top: -5px;
+            z-index: 3;
+            transform: rotate(10deg) translate(0, 5px);
+            transition: all 1s .8s;        
+        }
+        .card3 {
+            width: 20px;
+            height: 50px;
+            background-color: rgb(226, 153, 43);
+            border: solid 1px black;
+            border-radius: 3px;
+            position: absolute;
+            left: 10px;
+            top: -10px;
+            z-index: 2;
+            transform: rotate(22deg) translate(2px, 11px);
+            transition: all 1s .6s;
+        }
+        .card4 {
+            width: 20px;
+            height: 50px;
+            background-color: rgb(226, 64, 43);
+            border: solid 1px black;
+            border-radius: 3px;
+            position: absolute;
+            left: 15px;
+            top: -15px;
+            z-index: 1;
+            transform: rotate(33deg) translate(7px, 17px);
+            transition: all 1s 0.4s;
+        }
+        .cards:hover .card1 {            
+            transform: translate(5px, 0);
+        }
+        .cards:hover .card2 {            
+            transform: translate(25px, 5px);
+        }
+        .cards:hover .card3 {
+            transform: translate(45px, 10px);
+        }
+        .cards:hover .card4 {
+            transform: translate(65px, 15px);
+        }
+    </style>
+</head>
+<body>
+    
+</body>
+</html>
+<!-- <div class="flex flex-1">
+    <div class="flex-item flex-item1">1
+    <figure>
+        <img src="file:///C:\calc\picTest/4.jpg" alt="Инверсия">
+        <figcaption>Лиса-колбаса, изумрудные глаза</figcaption>
+    </figure>
+    </div>
+    <div class="flex-item flex-item2">2</div>
+    <div class="flex-item flex-item3">3</div>
+    <div class="flex-item flex-item4">4</div>
+    <div class="flex-item flex-item5">5</div>
+    <div class="flex-item flex-item6">6</div>
+    <div class="flex-item flex-item7">7</div>
+    <div class="flex-item flex-item8">8</div>
+    <div class="flex-item flex-item9">9</div>
+    <div class="flex-item flex-item10">10</div>
+</div> -->
+<!-- <table>
+    <caption>Таблица с заголовком</caption>
+    <thead>
+        <tr>
+            <th>заголовок 1</th>
+            <th>заголовок 2</th>
+            <th>заголовок 3</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr>
+            <td>тест 1</td>
+            <td>тест 1</td>
+            <td>тест 1</td>
+        </tr>
+        <tr>
+            <td>второй тест 1</td>
+            <td>второй тест 2</td>
+            <td>второй тест 3</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>футер</td>
+        </tr>
+    </tfoot>
+</table> -->
+
+<abbr title="всплывающий текст">наведи</abbr>
+<meter value="30" max="100">прогресс</meter>
+
+<p class="ololo forP">Текст</p>
+<ul class="ololol">
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+    <li>5</li>
+    <li>6</li>
+    <li>7</li>
+</ul>
+
+
+<div class="gr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, dolores facilis fuga ullam mollitia eos enim id earum nihil tenetur dolorum quod doloremque, ratione corporis! Veniam dolore aspernatur nam, iusto minima eos. Adipisci, in commodi. Fuga vero voluptates provident impedit reiciendis ducimus, sapiente culpa iusto tempora minus quae assumenda similique nisi quia suscipit ipsa voluptas cum quam recusandae fugiat earum possimus numquam ex? Atque magnam dolorem recusandae voluptatibus ad ab alias beatae explicabo quae, iste eius! Ea magnam obcaecati cum unde impedit corporis animi dignissimos, blanditiis reprehenderit, voluptate repellat, provident quam accusantium! Alias impedit facere sit est nisi magni. Nisi!</div>
+
+<div class="cards">
+    <div class="card1"></div>
+    <div class="card2"></div>
+    <div class="card3"></div>
+    <div class="card4"></div>
+</div>
